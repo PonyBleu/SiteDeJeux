@@ -1,14 +1,26 @@
 .inscription{
-  margin-top: 100px;
-  background-color: rgba(143, 58, 42, 0.5);
-  height: 500px;
-
+  font-family: 'Macondo';
+  margin-left: 17.4em;
+  margin-top: 10em;
+  background-color: rgba(160,90,80,0.7);
+  height: 37em;
+  width: 50em;
 }
 
 .form_inscription input{
-  margin-top: 3%;
+  width: 20em;
+  margin-top: 2.4em;
 }
 
 .form_inscription button{
-  margin-top: 3%;
+  margin-top: 3em;
+}
+
+@media (max-width: 1200px){
+  .inscription {
+  background-color: rgba(160,90,80,0.7);
+  height: 35em;
+  width: 50em;
+  margin-left: 0;
+}
 }
