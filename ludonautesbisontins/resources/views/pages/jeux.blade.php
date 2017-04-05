@@ -1,5 +1,5 @@
-<main>
-
+@extends('layouts.app')
+@section('content')
     <div class="container">
 
       <div class="row">
@@ -8,21 +8,19 @@
 
               <section class="jeu">
 
-                  <img src="">
+                  <img id="apercujeu" src="{{asset('images/limite.png')}}"/>
 
-                    <img src="">
+                    <img id="apercujeu2" src="{{asset('images/limite.png')}}">
 
-                      <img src="">
+                      <img id="apercujeu2" src="{{asset('images/limite.png')}}">
 
-                        <img src="">
-
+                        <img id="apercujeu2" src="{{asset('images/limite.png')}}">
+                        <hr>
                         <button id="jeu">J'ai ce jeu</button>
-
                         <button id="jeu">Je veux ce jeu</button>
-
+                        <hr>
                         <p id="personnejeu">Personnes qui possèdent le jeu</p>
-
-                        <p id="listpersonnejeu"></p>
+                        <p id="listpersonnejeu">joueur<br>joueur<br>joueur</p>
 
                   </section>
 
@@ -32,17 +30,19 @@
 
                 <section class="descriptionjeu">
 
-                  <p id="nbdejoueur"></p>
+                  <p id="infosjeu">Nombre de joueur : 8</p>
 
-                    <p id="tempsdejeu"></p>
+                    <p id="infosjeu">Temps de jeu : 2h</p>
 
-                      <p id="agejeu"></p>
+                      <p id="infosjeu">Âge : 12</p>
 
-                        <p id="conseiljeu"></p>
+                        <p id="infosjeu">Conseils : Burger ipsum dolor amet bresaola brisket short rib steak tail beef chuck flank Angus short loin</p>
 
                 </section>
 
                 <section class="commentaire">
+
+                  <p id="comm">Burger ipsum dolor amet bresaola brisket short rib steak tail beef chuck flank Angus short loin</p>
 
                 </section>
 
@@ -50,5 +50,4 @@
 
             </div>
           </div>
-
-  </main>
+      @endsection

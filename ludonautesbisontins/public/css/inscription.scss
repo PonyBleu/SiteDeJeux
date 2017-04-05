@@ -1,12 +1,20 @@
 .inscription{
-  font-family: 'Macondo';
+  font-family: 'Open Sans';
   margin-left: 17.4em;
   margin-top: 10em;
-  background-color: rgba(160,90,80,0.7);
-  height: 37em;
+  background-color: rgba(160,90,80,0.65);
+  height: 39em;
   width: 50em;
 }
 
+.inscription h2 {
+  padding:5px;
+	text-align:center;
+	margin-bottom:3%;
+	margin-top:3%;
+  font-family: 'Macondo';
+	font-weight:bold;
+}
 .form_inscription input{
   width: 20em;
   margin-top: 2.4em;
@@ -18,9 +26,19 @@
 
 @media (max-width: 1200px){
   .inscription {
-  background-color: rgba(160,90,80,0.7);
-  height: 35em;
+  background-color: rgba(160,90,80,0.65);
+  height: 38em;
   width: 50em;
   margin-left: 0;
 }
+}
+
+@media (max-width: 770px){
+  .inscription {
+  background-color: rgba(160,90,80,0.65);
+  height: 38em;
+  width: 50em;
+  margin-left: 0;
+}
+
 }

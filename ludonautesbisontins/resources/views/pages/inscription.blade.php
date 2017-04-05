@@ -1,11 +1,12 @@
-
+@extends('layouts.app')
+@section('content')
 <div class="container">
   <div class="row">
     <div class="text-center">
 
         <form id="form_inscription" class="form_inscription" action="" method="post">
           <div class="inscription col-sm-12 col-md-12 col-md-offset-2">
-              <h2 class="text-center">Inscription</h2>
+              <h2 class="text-center">• Inscription •</h2>
             <div class="col-sm-12 col-md-12 col-lg-12">
               <input type="text" placeholder="Nom" class="text-center">
             </div>
@@ -34,3 +35,4 @@
     </div>
   </div>
 </div>
+@endsection

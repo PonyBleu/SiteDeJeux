@@ -16,4 +16,6 @@ Route::get('association', 'PagesController@association');
 Route::get('forum', 'PagesController@forum');
 Route::get('articles', 'PagesController@articles');
 Route::get('jeux', 'PagesController@jeux');
+Route::get('listejeux', 'PagesController@listejeux');
 Route::get('inscription', 'PagesController@inscription');
+Route::get('albumphotos', 'PagesController@albumphotos');

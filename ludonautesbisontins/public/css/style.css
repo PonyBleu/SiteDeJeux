@@ -1,10 +1,19 @@
+@charset "UTF-8";
 .inscription {
-  font-family: 'Macondo';
+  font-family: 'Open Sans';
   margin-left: 17.4em;
   margin-top: 10em;
-  background-color: rgba(160, 90, 80, 0.7);
-  height: 37em;
+  background-color: rgba(160, 90, 80, 0.65);
+  height: 39em;
   width: 50em; }
+
+.inscription h2 {
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  font-family: 'Macondo';
+  font-weight: bold; }
 
 .form_inscription input {
   width: 20em;
@@ -15,8 +24,14 @@
 
 @media (max-width: 1200px) {
   .inscription {
-    background-color: rgba(160, 90, 80, 0.7);
-    height: 35em;
+    background-color: rgba(160, 90, 80, 0.65);
+    height: 38em;
+    width: 50em;
+    margin-left: 0; } }
+@media (max-width: 770px) {
+  .inscription {
+    background-color: rgba(160, 90, 80, 0.65);
+    height: 38em;
     width: 50em;
     margin-left: 0; } }
 .hautheader {
@@ -25,8 +40,7 @@
 
 .nav {
   background-color: #404040;
-  padding: 0.4em;
-  padding-bottom: 1.4em; }
+  padding: 0; }
 
 .hautheader h1 {
   font-family: 'Macondo', cursive;
@@ -43,10 +57,14 @@
 #logo {
   width: 100%;
   position: absolute;
+  left: 9.5em;
   background-color: #6f8218;
   height: 18em;
   width: 36em;
-  border-radius: 0 0 18em 18em; }
+  border-radius: 0 0 18em 18em;
+  -webkit-box-shadow: 4px 3px 7px 0px black;
+  -moz-box-shadow: 4px 3px 7px 0px black;
+  box-shadow: 4px 3px 7px 0px black; }
 
 #home {
   display: block;
@@ -58,7 +76,7 @@
   display: block;
   margin: 0 auto;
   width: 3.7em;
-  margin-top: 9em; }
+  margin-top: 9.2em; }
 
 #premierenav {
   color: white;
@@ -68,21 +86,25 @@
 #couverture {
   width: 100%; }
 
-#nav {
-  list-style: none;
+.nav li {
+  background-color: #404040;
+  list-style-type: none;
   text-align: center;
+  padding: 8%; }
+
+.nav li:hover {
+  background-color: #737373; }
+
+.nav a {
+  color: white;
   font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
-  font-size: 1.2em; }
+  font-weight: bold; }
 
-#nav a {
-  color: white; }
-
-#nav a:hover {
+.nav a:hover {
   text-decoration: none; }
 
-#nav:hover {
-  background-color: #737373; }
+.nav ul {
+  margin: 0; }
 
 .assos {
   background-image: url("/images/back_assos.png"); }
@@ -147,5 +169,359 @@
 
 .assos a {
   color: #3a5896; }
+
+/*Dernier sujet sur le forum*/
+.article {
+  background-color: #7b8838;
+  padding: 1em;
+  margin-top: 1.5em; }
+
+.article h2 {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  text-align: center; }
+
+.article a {
+  display: block;
+  margin: 0 auto;
+  text-decoration: none; }
+
+#titrearticle {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 1.4em;
+  color: black; }
+
+#apercuarticle {
+  font-family: 'Open Sans', sans-serif;
+  color: black; }
+
+.article #voirplus {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #93954c;
+  padding: 0.5em;
+  color: black;
+  text-align: center; }
+
+.article #voirplus:hover {
+  background-color: #a5a757; }
+
+/*Nous recherchons*/
+.recherche {
+  background-color: #969850;
+  padding: 1em; }
+
+.recherche h2 {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  text-align: center; }
+
+#recherche {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: black; }
+
+.recherche #voirplus {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #7b8838;
+  padding: 0.5em;
+  color: black;
+  text-align: center; }
+
+.recherche #voirplus:hover {
+  background-color: #a5a757; }
+
+.recherche a {
+  display: block;
+  margin: 0 auto;
+  text-decoration: none; }
+
+/*Sujet à la une*/
+.sujet {
+  background-color: rgba(160, 90, 80, 0.95);
+  margin-top: 1.5em;
+  padding: 1em; }
+
+.sujet h2 {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  text-align: center; }
+
+#apercusujet {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  text-align: center; }
+
+#taverne {
+  display: block;
+  margin: 0 auto;
+  width: 90%; }
+
+.sujet #voirplus {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #d07a6e;
+  padding: 0.5em;
+  color: black;
+  text-align: center;
+  margin-left: 1em; }
+
+.sujet #voirplus:hover {
+  background-color: #e7897b; }
+
+.sujet a {
+  text-decoration: none; }
+
+/*Evenement*/
+.evenement {
+  background-color: #8a8ca0;
+  margin-top: 1.5em;
+  padding: 1em; }
+
+.evenement h2 {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  text-align: center; }
+
+#drapeau {
+  width: 10%;
+  margin-left: 0.5em;
+  margin-right: 0.5em; }
+
+/*Calendrier*/
+.calendrier {
+  margin-top: 1.5em;
+  background-color: #ad7f1d;
+  height: 17em; }
+
+#descriptionevenement {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  text-align: center;
+  font-size: 0.8em;
+  margin-top: 0.3em; }
+
+/*Coup de coeur*/
+.coupdecoeur {
+  background-color: #ffcccc;
+  margin-top: 1.5em;
+  padding: 1em; }
+
+.coupdecoeur h2 {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  text-align: center; }
+
+#coeur {
+  width: 60%;
+  display: block;
+  margin: 0 auto; }
+
+#apercujeu {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: 0.8em;
+  margin-top: 1em; }
+
+.coupdecoeur #voirplus {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f47373;
+  padding: 0.5em;
+  color: black;
+  text-align: center; }
+
+.coupdecoeur #voirplus:hover {
+  background-color: #f59494; }
+
+.coupdecoeur a {
+  display: block;
+  margin: 0 auto;
+  text-decoration: none; }
+
+.coupdecoeur #jeu {
+  width: 80%;
+  display: block;
+  margin: 0 auto; }
+
+/*Dernieres actus*/
+.actu {
+  background-color: #fca259;
+  margin-top: 1.5em;
+  padding: 1em;
+  margin-bottom: 2em; }
+
+.actu h2 {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  text-align: center; }
+
+#epee {
+  width: 40%;
+  display: block;
+  margin: 0 auto; }
+
+#actu1 {
+  width: 60%;
+  display: block;
+  margin: 0 auto; }
+
+#actu2 {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 2em; }
+
+#apercuactu {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  margin-top: 0.5em; }
+
+#autreactu {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  text-align: center; }
+
+.actu #voirplus {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fdc08e;
+  padding: 0.5em;
+  color: black;
+  text-align: center; }
+
+.actu #voirplus:hover {
+  background-color: #fdd0ac; }
+
+.actu a {
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
+  width: 15em; }
+
+/*Le jeu*/
+.jeu {
+  background-color: #aeb979;
+  padding: 1em;
+  margin-top: 1.5em; }
+
+#apercujeu {
+  width: 70%;
+  display: block;
+  margin: 0 auto; }
+
+#apercujeu2 {
+  width: 30%;
+  margin-left: 0.4em;
+  margin-top: 0.5em; }
+
+.jeu #jeu {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  background-color: #c9c675;
+  border: none;
+  display: block;
+  margin: 0 auto;
+  margin-top: 1em; }
+
+.jeu #jeu:hover {
+  background-color: #e1de8a;
+  border: none; }
+
+#personnejeu {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  text-align: center;
+  margin-top: 2em;
+  font-size: 1.2em; }
+
+#listpersonnejeu {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: black; }
+
+/*Description du jeu*/
+.descriptionjeu {
+  background-color: #bdb9cd;
+  padding: 1em;
+  margin-top: 1.5em; }
+
+#infosjeu {
+  font-family: 'Open Sans', sans-serif;
+  color: black; }
+
+/*Commentaires*/
+.commentaire {
+  background-color: rgba(160, 90, 80, 0.95);
+  padding: 1em;
+  margin-top: 1.5em; }
+
+#comm {
+  font-family: 'Open Sans', sans-serif;
+  color: black; }
+
+.page_list_album {
+  background-color: #b2b2b2; }
+
+.page_list_album form {
+  margin-bottom: 12%;
+  margin-top: 12%; }
+
+.page_list_album input {
+  border: none;
+  padding: 3%; }
+
+.page_list_album p {
+  font-family: "Open Sans"; }
+
+.page_list_album a {
+  font-family: "Open Sans";
+  color: white; }
+
+.box_album {
+  height: 265px;
+  padding: 0;
+  margin-bottom: 8%;
+  filter: brightness(100%); }
+
+.box_album:hover {
+  filter: brightness(40%); }
+
+.bot_album {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  padding-bottom: 1%; }
+
+.img_count {
+  float: right;
+  font-size: 130%;
+  background-color: rgba(160, 90, 80, 0.95);
+  padding: 3%;
+  margin-right: 3%; }
+
+.album_date {
+  text-align: center;
+  font-size: 130%; }
+
+.page_list_album h2 {
+  padding: 3%;
+  text-align: center;
+  margin-top: 0%;
+  font-family: "Macondo";
+  font-weight: bold; }
+
+.page_list_album ul {
+  margin-left: 17%;
+  margin-bottom: 12%; }
+
+.page_list_album li {
+  display: inline-block;
+  margin-left: 1%;
+  font-family: "Macondo";
+  font-size: 130%; }
+
+/* -webkit-filter: brightness(100%); */
+/* sur le hover : */
+/* filter:brightness(40%); */
+/* -webkit-filter: brightness(40%); */
 
 /*# sourceMappingURL=style.css.map */

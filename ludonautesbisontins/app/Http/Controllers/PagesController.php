@@ -27,5 +27,8 @@ class PagesController extends Controller
   public function listejeux(){
     return view('pages.listejeux');
   }
+  public function albumphotos(){
+    return view('pages.page_list_album');
+  }
 //
 }

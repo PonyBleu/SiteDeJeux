@@ -1,0 +1,83 @@
+.page_list_album{
+	background-color:#b2b2b2;
+}
+
+.page_list_album form{
+	margin-bottom:12%;
+	margin-top:12%;
+}
+
+.page_list_album input{
+	border:none;
+	padding:3%;
+}
+
+.a_album{
+
+}
+
+.page_list_album p{
+	font-family:"Open Sans";
+}
+
+.page_list_album a{
+	font-family:"Open Sans";
+	color:white;
+}
+
+.box_album{
+	height:265px;
+	padding:0;
+	margin-bottom:8%;
+	filter:brightness(100%);
+}
+
+.box_album:hover{
+	filter:brightness(40%);
+}
+
+.bot_album{
+	background-color:rgba(0, 0, 0,0.5);
+	width:100%;
+	padding-bottom:1%;
+}
+
+.img_count{
+	float:right;
+	font-size:130%;
+	background-color:rgba(160,90,80,0.95);
+	padding:3%;
+	margin-right:3%;
+}
+
+.album_date{
+	text-align:center;
+	font-size:130%;
+}
+
+.page_list_album h2{
+	padding:3%;
+	text-align:center;
+	margin-top:0%;
+	font-family:"Macondo";
+	font-weight:bold;
+}
+
+.page_list_album ul{
+	margin-left:17%;
+	margin-bottom:12%;
+}
+
+.page_list_album li{
+	display:inline-block;
+	margin-left:1%;
+	font-family:"Macondo";
+	font-size:130%;
+}
+
+
+/* -webkit-filter: brightness(100%); */
+
+/* sur le hover : */
+   /* filter:brightness(40%); */
+   /* -webkit-filter: brightness(40%); */

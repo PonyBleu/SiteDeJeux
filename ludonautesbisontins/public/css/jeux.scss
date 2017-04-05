@@ -1,0 +1,74 @@
+/*Le jeu*/
+
+.jeu {
+  background-color:#aeb979;
+  padding:1em;
+  margin-top:1.5em;
+}
+
+#apercujeu {
+  width: 70%;
+  display:block;
+  margin:0 auto;
+}
+
+#apercujeu2 {
+  width: 30%;
+  margin-left:0.4em;
+  margin-top:0.5em;
+}
+
+.jeu #jeu {
+  font-family: 'Open Sans', sans-serif;
+  color:black;
+  background-color:#c9c675;
+  border:none;
+  display:block;
+  margin:0 auto;
+  margin-top:1em;
+}
+
+.jeu #jeu:hover {
+  background-color:#e1de8a;
+  border:none;
+}
+
+#personnejeu {
+  font-family: 'Open Sans', sans-serif;
+  color:black;
+  text-align:center;
+  margin-top:2em;
+  font-size:1.2em;
+}
+
+#listpersonnejeu {
+  text-align:center;
+  font-family: 'Open Sans', sans-serif;
+  color:black;
+}
+
+/*Description du jeu*/
+
+.descriptionjeu {
+  background-color:#bdb9cd;
+  padding:1em;
+  margin-top:1.5em;
+}
+
+#infosjeu {
+  font-family: 'Open Sans', sans-serif;
+  color:black;
+}
+
+/*Commentaires*/
+
+.commentaire {
+  background-color:rgba(160,90,80,0.95);
+  padding:1em;
+  margin-top:1.5em;
+}
+
+#comm {
+  font-family: 'Open Sans', sans-serif;
+  color:black;
+}

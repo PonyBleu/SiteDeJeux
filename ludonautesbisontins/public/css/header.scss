@@ -5,8 +5,7 @@
 
 .nav {
   background-color:#404040;
-  padding:0.4em;
-  padding-bottom:1.4em;
+  padding:0;
 }
 
 .hautheader h1 {
@@ -14,10 +13,6 @@
   text-align: center;
   color:black;
   font-size:3em;
-}
-
-#home {
-
 }
 
 #pnj {
@@ -30,12 +25,14 @@
 #logo {
   width: 100%;
   position:absolute;
+  left:9.5em;
   background-color:#6f8218;
   height: 18em;
   width: 36em;
   border-radius: 0 0 18em 18em;
-
-
+  -webkit-box-shadow: 4px 3px 7px 0px rgba(0,0,0,1);
+  -moz-box-shadow: 4px 3px 7px 0px rgba(0,0,0,1);
+  box-shadow: 4px 3px 7px 0px rgba(0,0,0,1);
 }
 
 #home {
@@ -49,7 +46,7 @@
   display:block;
   margin:0 auto;
   width: 3.7em;
-  margin-top: 9em;
+  margin-top: 9.2em;
 }
 
 #premierenav {
@@ -62,22 +59,27 @@
   width: 100%;
 }
 
-#nav {
-  list-style:none;
+.nav li {
+  background-color:#404040;
+  list-style-type:none;
   text-align:center;
+  padding:8%;
+}
+
+.nav li:hover {
+  background-color:#737373;
+}
+
+.nav a {
+  color:white;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
-  font-size:1.2em;
 }
 
-#nav a {
-  color:white;
+.nav a:hover {
+  text-decoration:none;
 }
 
-#nav a:hover {
-    text-decoration:none;
-}
-
-#nav:hover {
-  background-color:#737373;
+.nav ul {
+  margin:0;
 }

@@ -1,27 +1,25 @@
-<header>
-
-  <article class="hautheader">
+<article class="hautheader">
 
   <div class="container">
       <div class="row">
 
-        <div class="col-md-2">
+        <div class="col-xs-12 col-md-2">
 
           <a href=""><img id="home" src="{{asset('images/home.png')}}"></a>
           <p id="premierenav">Accueil</p>
 
         </div>
 
-        <div class="col-md-8">
+        <div class="col-xs-12 col-md-8">
 
           <div id="logo">
-            <img id="pnj" src="{{asset('images/pnj.png')}}"><br>
+            <img id="pnj" src="{{asset('images/pnj.png')}}">
             <h1>Ludonautes<br>bisontins</h1>
           </div>
 
         </div>
 
-        <div class="col-md-2">
+        <div class="col-xs-12 col-md-2">
 
           <a href=""><img id="connexion" src="{{asset('images/connexion.png')}}"></a>
           <p id="premierenav">Connexion</p>
@@ -40,20 +38,20 @@
 
           <nav>
               <ul>
-                  <div class="col-md-3" id="nav">
-                    <a href=""><li>Association</li></a>
+                  <div class="col-xs-12 col-md-3" id="nav">
+                    <li><a href="">Association</a></li>
                   </div>
 
-                  <div class="col-md-3" id="nav">
-                    <a href=""><li>Jeux</li></a>
+                  <div class="col-xs-12 col-md-3" id="nav">
+                    <li><a href="">Jeux</a></li>
                   </div>
 
-                  <div class="col-md-3" id="nav">
-                    <a href=""><li>Forum</li></a>
+                  <div class="col-xs-12 col-md-3" id="nav">
+                    <li><a href="">Forum</a></li>
                   </div>
 
-                  <div class="col-md-3" id="nav">
-                    <a href=""><li>Articles</li></a>
+                  <div class="col-xs-12 col-md-3" id="nav">
+                    <li><a href="">Articles</a></li>
                   </div>
               </ul>
           </nav>
@@ -61,7 +59,3 @@
       </div>
     </div>
   </article>
-
-
-
-</header>

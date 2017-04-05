@@ -1,5 +1,5 @@
-<main>
-
+@extends('layouts.app')
+@section('content')
 <div class="container">
   <section class="filtre">
 
@@ -66,5 +66,4 @@
   </section>
 
 </div>
-
-</main>
+@endsection
