@@ -1,3 +1,4 @@
+
 <article class="hautheader">
 
   <div class="container">
@@ -14,7 +15,7 @@
 
           <div id="logo">
             <img id="pnj" src="{{asset('images/pnj.png')}}">
-            <h1>Ludonautes<br>bisontins</h1>
+            <h1>Les Ludonautes<br>Bisontins</h1>
           </div>
 
         </div>

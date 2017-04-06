@@ -19,3 +19,4 @@ Route::get('jeux', 'PagesController@jeux');
 Route::get('listejeux', 'PagesController@listejeux');
 Route::get('inscription', 'PagesController@inscription');
 Route::get('albumphotos', 'PagesController@albumphotos');
+Route::get('article', 'PagesController@article');

@@ -30,5 +30,8 @@ class PagesController extends Controller
   public function albumphotos(){
     return view('pages.page_list_album');
   }
+  public function article(){
+    return view('pages.simplearticle');
+  }
 //
 }

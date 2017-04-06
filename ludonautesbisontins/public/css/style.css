@@ -523,5 +523,40 @@
 /* sur le hover : */
 /* filter:brightness(40%); */
 /* -webkit-filter: brightness(40%); */
+.simplearticle {
+  background-image: url("/images/magic-forest-1984254_960_720.png");
+  background-size: cover;
+  padding: 6% 0 6% 0; }
+
+.simple_box {
+  background-color: rgba(119, 132, 53, 0.95);
+  padding: 6% 0 6% 0; }
+
+.simplearticle h2 {
+  padding: 3%;
+  text-align: center;
+  margin-top: 0%;
+  font-family: "Macondo";
+  font-weight: bold; }
+
+.simplearticle img {
+  display: block;
+  margin: 3% auto 6% auto; }
+
+.simplearticle p {
+  font-family: "Open Sans"; }
+
+.simple_date {
+  font-family: "Open Sans";
+  text-align: center;
+  margin-top: 6%;
+  margin-bottom: 3%; }
+
+.simple_button {
+  float: right;
+  padding: 1% 2% 1% 2%;
+  border: none;
+  background-color: rgba(160, 175, 84, 0.95);
+  font-family: "Open Sans"; }
 
 /*# sourceMappingURL=style.css.map */
