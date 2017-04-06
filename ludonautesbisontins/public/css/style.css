@@ -1,11 +1,19 @@
 @charset "UTF-8";
+.bginscription {
+  background-image: url("/images/foret.jpg"); }
+
 .inscription {
   font-family: 'Open Sans';
   margin-left: 17.4em;
   margin-top: 10em;
-  background-color: rgba(160, 90, 80, 0.65);
+  background-color: rgba(160, 90, 80, 0.9);
   height: 39em;
-  width: 50em; }
+  width: 50em;
+  margin-bottom: 10em; }
+
+.inscription input {
+  background-color: white;
+  border: 0; }
 
 .inscription h2 {
   padding: 5px;
@@ -20,17 +28,20 @@
   margin-top: 2.4em; }
 
 .form_inscription button {
-  margin-top: 3em; }
+  border: 0;
+  margin-top: 3em;
+  background-color: white;
+  width: 8em; }
 
 @media (max-width: 1200px) {
   .inscription {
-    background-color: rgba(160, 90, 80, 0.65);
+    background-color: rgba(160, 90, 80, 0.9);
     height: 38em;
     width: 50em;
     margin-left: 0; } }
 @media (max-width: 770px) {
   .inscription {
-    background-color: rgba(160, 90, 80, 0.65);
+    background-color: rgba(160, 90, 80, 0.9);
     height: 38em;
     width: 50em;
     margin-left: 0; } }
@@ -558,5 +569,52 @@
   border: none;
   background-color: rgba(160, 175, 84, 0.95);
   font-family: "Open Sans"; }
+
+div.bgarticles {
+  background-color: #737373; }
+
+.bgarticles .recherche {
+  background-color: #a09f9f;
+  color: #616161;
+  font-family: Open Sans;
+  font-weight: bold;
+  text-align: center;
+  border: none; }
+
+.bgarticles #recherche {
+  text-align: center;
+  margin-top: 5em; }
+
+.bgarticles .listearticles {
+  margin-top: 3em;
+  text-align: center;
+  color: #000; }
+
+.bgarticles .listearticles img {
+  width: 100%;
+  padding: 1.5em; }
+
+.bgarticles .listearticles p {
+  padding-left: 1.5em;
+  text-align: justify; }
+
+.bgarticles .art1 {
+  background-color: #762e21;
+  margin-bottom: 3em; }
+
+.bgarticles .art2 {
+  background-color: #8f92a7;
+  margin-bottom: 3em; }
+
+.bgarticles .art3 {
+  background-color: #7d7f37;
+  margin-bottom: 3em; }
+
+.bgarticles .art4 {
+  background-color: #ef9d5c; }
+
+.bgarticles .lienpage {
+  text-align: center;
+  margin-top: 3em; }
 
 /*# sourceMappingURL=style.css.map */
