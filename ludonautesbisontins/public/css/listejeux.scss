@@ -1,0 +1,65 @@
+.listedesjeux #jeu {
+  display:block;
+  margin:0 auto;
+  margin-top:1.5em;
+  width: 100%;
+  filter:brightness(100%);
+  -webkit-filter: brightness(100%);
+}
+
+.listedesjeux #jeu:hover {
+  filter:brightness(40%);
+-webkit-filter: brightness(40%);
+}
+
+.listedesjeux #fondjeu {
+  background-color:#a1a1a1;
+  height: 3em;
+}
+
+#nomjeu {
+  font-family: 'Open Sans', sans-serif;
+  color:black;
+  text-align:center;
+  padding-top:0.7em;
+  margin-bottom:5em;
+}
+
+.filtre #recherche {
+  border:solid;
+  border-color:black;
+  border-width: 0.15em;
+}
+
+.filtre #ok {
+  border:none;
+  background-color:black;
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+  padding:0.2em;
+  padding-right: 0.3em;
+}
+
+.filtre #rechercher {
+  text-align:center;
+}
+
+.filtre #select {
+  text-align:center;
+  margin-top:1.5em;
+  margin-bottom:1.5em;
+  background-color:#212121;
+  padding:1em;
+  border-radius:0.5em;
+  height: 6em;
+}
+
+.filtre #selectok {
+  font-family: 'Open Sans', sans-serif;
+  margin-top:1.8em;
+}
+
+#donneeselect {
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+}

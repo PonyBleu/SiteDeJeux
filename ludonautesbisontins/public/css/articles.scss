@@ -1,6 +1,16 @@
 div.bgarticles
 {
     background-color: #737373;
+    font-family: "Open Sans";
+}
+
+.bgarticles h2{
+  padding:5px;
+  text-align:center;
+  margin-bottom:3%;
+  margin-top:3%;
+  font-family: 'Macondo';
+  font-weight:bold;
 }
 
 .bgarticles .recherche
@@ -34,7 +44,7 @@ div.bgarticles
 
 .bgarticles .listearticles p
 {
-    padding-left: 1.5em;
+    padding: 1.5em;
     text-align: justify;
 }
 

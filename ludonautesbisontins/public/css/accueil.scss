@@ -8,7 +8,7 @@
 }
 
 .article h2 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Macondo', cursive;
   color:black;
   text-align:center;
 }
@@ -51,7 +51,7 @@
 }
 
 .recherche h2 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Macondo', cursive;
   color:black;
   text-align:center;
 }
@@ -89,7 +89,7 @@
 }
 
 .sujet h2 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Macondo', cursive;
   color:black;
   text-align:center;
 }
@@ -104,6 +104,7 @@
   display:block;
   margin:0 auto;
   width: 90%;
+  margin-top:1em;
 }
 
 .sujet #voirplus {
@@ -112,7 +113,9 @@
   padding:0.5em;
   color:black;
   text-align:center;
-  margin-left:1em;
+  display:block;
+  margin:0 auto;
+  width: 10em;
 }
 
 .sujet #voirplus:hover {
@@ -132,7 +135,7 @@
 }
 
 .evenement h2 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Macondo', cursive;
   color:black;
   text-align:center;
 }
@@ -148,7 +151,7 @@
 .calendrier {
   margin-top:1.5em;
   background-color:#ad7f1d;
-  height: 17em;
+  padding: 1em;
 }
 
 #descriptionevenement {
@@ -168,7 +171,7 @@
 }
 
 .coupdecoeur h2 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Macondo', cursive;
   color:black;
   text-align:center;
 }
@@ -183,7 +186,6 @@
   font-family: 'Open Sans', sans-serif;
   color:black;
   font-size:0.8em;
-  margin-top:1em;
 }
 
 .coupdecoeur #voirplus {
@@ -192,6 +194,7 @@
   padding:0.5em;
   color:black;
   text-align:center;
+  margin-top:1em;
 }
 
 .coupdecoeur #voirplus:hover {
@@ -208,6 +211,7 @@
   width: 80%;
   display:block;
   margin:0 auto;
+  margin-bottom:1em;
 }
 
 /*Dernieres actus*/
@@ -220,7 +224,7 @@
 }
 
 .actu h2 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Macondo', cursive;
   color:black;
   text-align:center;
 }
@@ -275,4 +279,39 @@
   margin:0 auto;
   text-decoration:none;
   width: 15em;
+}
+
+@media screen and (max-width: 991px)
+ {
+   #coeur {
+     width: 10%;
+   }
+
+   .coupdecoeur #jeu {
+     width: 25%;
+   }
+
+   #apercujeu {
+     text-align:center;
+   }
+
+   #taverne {
+     width: 60%;
+   }
+
+   .calendrier {
+     display:none;
+   }
+
+   #epee {
+     display:none;
+   }
+
+}
+
+@media screen and (max-width: 394px)
+{
+  #drapeau {
+    display:none;
+  }
 }

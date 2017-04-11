@@ -18,9 +18,9 @@ class PagesController extends Controller
   public function articles(){
     return view('pages.articles');
   }
-  public function forum(){
-    return view('pages.forum');
-  }
+  // public function forum(){
+  //   return view('pages.forum');
+  // }
   public function inscription(){
     return view('pages.inscription');
   }

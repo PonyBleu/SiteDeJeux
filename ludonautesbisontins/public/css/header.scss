@@ -1,6 +1,6 @@
 .hautheader {
   background-color:black;
-  height: 15em;
+  height: 10em;
 }
 
 .nav {
@@ -12,23 +12,22 @@
   font-family: 'Macondo', cursive;
   text-align: center;
   color:black;
-  font-size:3em;
+  font-size:2.5em;
 }
 
 #pnj {
   display:block;
   margin:0 auto;
-  width: 7em;
+  width: 4em;
   padding-top:2em;
 }
 
 #logo {
-  width: 100%;
   position:absolute;
-  left:9.5em;
+  left:12em;
   background-color:#6f8218;
-  height: 18em;
-  width: 36em;
+  height: 15em;
+  width: 30em;
   border-radius: 0 0 18em 18em;
   -webkit-box-shadow: 4px 3px 7px 0px rgba(0,0,0,1);
   -moz-box-shadow: 4px 3px 7px 0px rgba(0,0,0,1);
@@ -38,15 +37,22 @@
 #home {
   display:block;
   margin:0 auto;
-  width: 4em;
-  margin-top: 9em;
+  width: 3.5em;
+  margin-top: 4.5em;
 }
 
 #connexion {
   display:block;
   margin:0 auto;
-  width: 3.7em;
-  margin-top: 9.2em;
+  width: 3em;
+  margin-top: 5em;
+}
+
+#calend {
+  display:block;
+  margin:0 auto;
+  width:1.8em;
+  display:none;
 }
 
 #premierenav {
@@ -57,6 +63,14 @@
 
 #couverture {
   width: 100%;
+}
+
+#nav2 {
+  display:none;
+}
+
+#navhomeconnex {
+  display:none;
 }
 
 .nav li {
@@ -83,3 +97,104 @@
 .nav ul {
   margin:0;
 }
+
+
+
+@media screen and (max-width: 1200px)
+ {
+  #logo {
+    position:absolute;
+    left:10em;
+  }
+
+  .hautheader h1 {
+    font-family: 'Macondo', cursive;
+    text-align: center;
+    color:black;
+    font-size:2.2em;
+  }
+
+  #logo {
+  width: 25em;
+  }
+ }
+
+ @media screen and (max-width: 991px)
+  {
+    #couverture {
+      display:none;
+    }
+
+    #nav1 {
+      display:none;
+    }
+
+    #premierenav {
+      display:none;
+    }
+
+    #logo {
+      position:static;
+      width: 20em;
+      height: 10em;
+      display:block;
+      margin:0 auto;
+    }
+
+    .hautheader h1 {
+      font-size:1.8em;
+      margin-top:0.3em;
+    }
+
+    #pnj {
+      padding-top:1em;
+    }
+
+    #nav2 {
+      display:block;
+      margin:0 auto;
+    }
+
+    #nav2bis a {
+      text-align:center;
+      display:block;
+      margin:0 auto;
+      margin-top:1em;
+      background-color:#404040;
+      padding:0.5em;
+      color:white;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: bold;
+    }
+
+    #nav2bis a:hover {
+    text-decoration:none;
+    background-color:#737373;
+    }
+
+    #navhomeconnex {
+      display:block;
+    }
+
+    #home {
+      display:none;
+    }
+
+    #connexion {
+      width: 2em;
+    }
+
+    #calend {
+      display:block;
+      margin-top:5em;
+    }
+}
+
+
+@media screen and (max-width: 500px)
+ {
+   #logo {
+     width: 16em;
+     height: 10em;
+   }
+ }

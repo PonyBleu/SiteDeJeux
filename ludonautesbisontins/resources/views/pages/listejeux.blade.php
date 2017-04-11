@@ -5,38 +5,33 @@
 
     <div class="row">
 
-      <nav>
-          <ul>
-              <div class="col-md-3">
-                  <li><select>Nombre de joueur</select>
-                  <option>truc</option>
-                  <option>truc</option></li>
-                </div>
+      <div id="select">
 
-              <div class="col-md-3">
-                  <li><select>Âge</select>
-                  <option>truc</option>
-                  <option>truc</option></li>
-              </div>
+      <div class="col-md-2">
+        <p id="donneeselect">Nombre de joueur</p>
+        {{ Form::select('nombredejoueurs', ['1', '2', '4','6', '8', '10']) }}
+      </div>
+      <div class="col-md-2">
+        <p id="donneeselect">Âge</p>
+        {{ Form::select('age', ['-5ans', '+5ans', '+10ans','+15ans','0 à 99ans']) }}
+      </div>
+      <div class="col-md-2">
+        <p id="donneeselect">Durée</p>
+        {{ Form::select('duree', ['-15min', '+15min', '+30min','+45min', '+1h', '+1h30','+2h']) }}
+      </div>
+      <div class="col-md-3">
+        <p id="donneeselect">Possédé par</p>
+        {{ Form::select('possedepar', ['truc', 'bidule', 'burger']) }}
+      </div>
+      <div class="col-md-2">
+        <button id="selectok">Lancer la recherche</button>
+      </div>
+      </div>
+  </div>
 
-              <div class="col-md-3">
-                  <li><select>Durée</select>
-                  <option>truc</option>
-                  <option>truc</option></li>
-              </div>
-
-              <div class="col-md-3">
-                  <li><select>Possédé par</select>
-                  <option>truc</option>
-                  <option>truc</option></li>
-              </div>
-
-          </ul>
-      </nav>
-
+    <div id="rechercher">
+      <input id="recherche" placeholder="Rechercher"></input><button id="ok" type="submit">ok</button>
     </div>
-
-      <input id="recherche" placeholder="Rechercher"></input><button type="submit">OK</button>
 
     </section>
     <section class="listedesjeux">
@@ -45,19 +40,43 @@
 
         <div class="col-md-4">
 
-          <img src="{{asset('images/logo.png')}}">
+          <a href=""><img id="jeu" src="{{asset('images/jeu.jpg')}}"></a>
+          <div id="fondjeu"><p id="nomjeu">Nom du jeu</p></div>
 
         </div>
 
         <div class="col-md-4">
 
-          <img src="{{asset('images/logo.png')}}">
+          <a href=""><img id="jeu" src="{{asset('images/jeu.jpg')}}"></a>
+          <div id="fondjeu"><p id="nomjeu">Nom du jeu</p></div>
 
         </div>
 
         <div class="col-md-4">
 
-          <img src="{{asset('images/logo.png')}}">
+          <a href=""><img id="jeu" src="{{asset('images/jeu.jpg')}}"></a>
+          <div id="fondjeu"><p id="nomjeu">Nom du jeu</p></div>
+
+        </div>
+
+        <div class="col-md-4">
+
+          <a href=""><img id="jeu" src="{{asset('images/jeu.jpg')}}"></a>
+          <div id="fondjeu"><p id="nomjeu">Nom du jeu</p></div>
+
+        </div>
+
+        <div class="col-md-4">
+
+          <a href=""><img id="jeu" src="{{asset('images/jeu.jpg')}}"></a>
+          <div id="fondjeu"><p id="nomjeu">Nom du jeu</p></div>
+
+        </div>
+
+        <div class="col-md-4">
+
+          <a href=""><img id="jeu" src="{{asset('images/jeu.jpg')}}"></a>
+          <div id="fondjeu"><p id="nomjeu">Nom du jeu</p></div>
 
         </div>
 

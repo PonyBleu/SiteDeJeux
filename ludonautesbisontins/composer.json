@@ -8,8 +8,11 @@
         "php": ">=5.6.4",
         "backpack/base": "^0.7.16",
         "backpack/crud": "^3.2",
+        "backpack/langfilemanager": "^1.0",
+        "backpack/pagemanager": "^1.1",
         "laravel/framework": "5.4.*",
         "laravel/tinker": "~1.0",
+        "laravelcollective/html": "^5.3.0",
         "riari/laravel-forum": "~4.0"
     },
     "require-dev": {

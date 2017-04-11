@@ -1,5 +1,5 @@
 .bginscription{
-  background-image: url('/images/foret.jpg');
+  background-image: url('/images/foret.jpg')
 }
 
 .inscription{
@@ -10,6 +10,14 @@
   height: 39em;
   width: 50em;
   margin-bottom: 10em;
+}
+
+.inscription img{
+width: 5em;
+}
+
+.inscription #guerrier{
+  padding-top: 1em;
 }
 
 .inscription input{
@@ -40,18 +48,18 @@ border: 0;
 @media (max-width: 1200px){
   .inscription {
   background-color: rgba(160,90,80,0.9);
-  height: 38em;
-  width: 50em;
-  margin-left: 0;
+  height: 45em;
+  width: 40em;
+  margin-left: 0em;
 }
 }
 
 @media (max-width: 770px){
   .inscription {
   background-color: rgba(160,90,80,0.9);
-  height: 38em;
-  width: 50em;
-  margin-left: 0;
+  height: 48em;
+  width: 25em;
+  margin-left: 0em;
 }
 
 }

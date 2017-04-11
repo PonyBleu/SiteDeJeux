@@ -34,7 +34,7 @@
 
                       <h2>• Sujet à la une •</h2>
                       <hr>
-                        <p id="apercusujet">Burger ipsum dolor amet bresaola brisket<a href="" id="voirplus">Voir plus</a></p>
+                        <p id="apercusujet">Burger ipsum dolor amet bresaola brisket</p><a href="" id="voirplus">Voir plus</a>
 
                             <img id="taverne" src="{{asset('images/taverne.jpg')}}"/>
 
